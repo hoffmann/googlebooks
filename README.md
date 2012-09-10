@@ -1,9 +1,12 @@
 googlebooks
 ===========
 
-[Google Books API][api] search access with Python.
+[Google Books API][api] search access with Python. Anonymous Access is rate limited
+by google. An alternative is the [python google data api][gdata].
 
 [api]: https://developers.google.com/books/
+[gdata]: http://code.google.com/p/gdata-python-client/
+
 
 ```python
 import googlebooks
